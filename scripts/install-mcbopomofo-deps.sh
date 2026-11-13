@@ -9,7 +9,7 @@ fi
 ARCH="$1"
 ROOT="$PWD"
 CACHE_DIR="$ROOT/cache/macos"
-DESTDIR_ROOT="$ROOT/build/macos-$ARCH"
+DESTDIR_ROOT="$ROOT/build/macos-$ARCH/mcbopomofo-deps"
 WORK_DIR="$ROOT/build/macos-$ARCH-deps-work"
 NCPU="$(sysctl -n hw.ncpu)"
 
